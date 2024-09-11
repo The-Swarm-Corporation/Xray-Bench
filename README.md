@@ -1,4 +1,3 @@
-[![Multi-Modality](agorabanner.png)](https://discord.com/servers/agora-999382051935506503)
 
 # **XRayBench: The Ultimate LLM Evaluation Suite for X-Ray Image Analysis**
 
@@ -22,16 +21,13 @@
 4. **Dynamic Dataset Integration**: 
    Utilizing vast open-source X-ray datasets such as NIH ChestX-ray14 and MURA, XRayBench ensures a rich and diverse set of test cases. The suite is designed for flexibility, allowing users to integrate their custom datasets for tailored evaluations.
 
-5. **Explainable AI (XAI) Capabilities**:
-   Understanding model decisions is vital in healthcare. XRayBench includes tools for generating visual explanations of model predictions, such as heatmaps and saliency maps, allowing users to evaluate the interpretability of LLM outputs.
-
-6. **Customizable Evaluation Pipelines**:
+5. **Customizable Evaluation Pipelines**:
    XRayBench allows users to configure custom pipelines for specific evaluation needs, including benchmarking different LLMs across various medical imaging tasks, fine-tuning workflows, and testing specific diagnostic features.
 
-7. **Clinical-Grade Reports**:
+6. **Clinical-Grade Reports**:
    Generate fully automated, human-readable diagnostic reports with real-time validation against medical labels. XRayBench ensures that LLMs produce accurate, detailed, and structured diagnostic outputs.
 
-8. **Scalable and Cloud-Ready**:
+7. **Scalable and Cloud-Ready**:
    Designed with scalability in mind, XRayBench supports large-scale testing and training in cloud environments. From single-image evaluations to processing thousands of images, XRayBench ensures seamless performance at any scale.
 
 #### **Who Can Benefit?**
@@ -43,3 +39,6 @@
 
 #### **The Future of Medical Imaging is Here**
 XRayBench is your go-to platform for pushing the boundaries of AI in medical imaging. Empower your models to meet clinical standards with unmatched accuracy, explainability, and efficiency.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
