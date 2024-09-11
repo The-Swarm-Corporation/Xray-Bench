@@ -1,67 +1,47 @@
 [![Multi-Modality](agorabanner.png)](https://discord.com/servers/agora-999382051935506503)
 
-# Python Package Template
+# **XRayBench: The Ultimate LLM Evaluation Suite for X-Ray Image Analysis**
 
-[![Join our Discord](https://img.shields.io/badge/Discord-Join%20our%20server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/agora-999382051935506503) [![Subscribe on YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@kyegomez3242) [![Connect on LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kye-g-38759a207/) [![Follow on X.com](https://img.shields.io/badge/X.com-Follow-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/kyegomezb)
-
-A easy, reliable, fluid template for python packages complete with docs, testing suites, readme's, github workflows, linting and much much more
-
-
-## Installation
-
-You can install the package using pip
-
-```bash
-pip install -e .
-```
-
-# Usage
-```python
-print("hello world")
-
-```
+[![Join our Discord](https://img.shields.io/badge/Discord-Join%20our%20server-5865F2?style=for-the-badge&logo=discord&
+logoColor=white)](https://discord.gg/agora-999382051935506503) [![Subscribe on YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@kyegomez3242) [![Connect on LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kye-g-38759a207/) [![Follow on X.com](https://img.shields.io/badge/X.com-Follow-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/kyegomezb)
 
 
 
-### Code Quality 🧹
 
-- `make style` to format the code
-- `make check_code_quality` to check code quality (PEP8 basically)
-- `black .`
-- `ruff . --fix`
+**XRayBench** is a state-of-the-art evaluation platform designed specifically for assessing the performance of large language models (LLMs) in the domain of medical X-ray image analysis. By harnessing the power of cutting-edge AI, XRayBench provides a comprehensive framework for testing and refining LLMs across multiple tasks, ensuring they meet the highest standards in radiological diagnostics.
 
-### Tests 🧪
+#### **Key Features:**
 
-[`pytests`](https://docs.pytest.org/en/7.1.x/) is used to run our tests.
+1. **End-to-End Analysis Workflow**: 
+   XRayBench evaluates LLMs on the entire X-ray analysis pipeline, from image preprocessing and anomaly detection to diagnosis generation and report creation. The suite supports real-world medical scenarios to ensure that LLMs are capable of making accurate and clinically relevant decisions.
 
-### Publish on PyPi 🚀
+2. **Multi-Agent Collaboration**: 
+   XRayBench allows LLMs to collaborate with specialized agents designed for feature extraction, anomaly detection, and clinical reporting. This unique collaborative environment simulates the real-world workflow of radiologists and AI models working together.
 
-**Important**: Before publishing, edit `__version__` in [src/__init__](/src/__init__.py) to match the wanted new version.
+3. **Performance Metrics**:
+   XRayBench provides a detailed evaluation using industry-standard metrics such as accuracy, precision, recall, F1 score, and ROC-AUC. The suite also measures time-to-diagnosis and model interpretability, critical for clinical adoption.
 
-```
-poetry build
-poetry publish
-```
+4. **Dynamic Dataset Integration**: 
+   Utilizing vast open-source X-ray datasets such as NIH ChestX-ray14 and MURA, XRayBench ensures a rich and diverse set of test cases. The suite is designed for flexibility, allowing users to integrate their custom datasets for tailored evaluations.
 
-### CI/CD 🤖
+5. **Explainable AI (XAI) Capabilities**:
+   Understanding model decisions is vital in healthcare. XRayBench includes tools for generating visual explanations of model predictions, such as heatmaps and saliency maps, allowing users to evaluate the interpretability of LLM outputs.
 
-We use [GitHub actions](https://github.com/features/actions) to automatically run tests and check code quality when a new PR is done on `main`.
+6. **Customizable Evaluation Pipelines**:
+   XRayBench allows users to configure custom pipelines for specific evaluation needs, including benchmarking different LLMs across various medical imaging tasks, fine-tuning workflows, and testing specific diagnostic features.
 
-On any pull request, we will check the code quality and tests.
+7. **Clinical-Grade Reports**:
+   Generate fully automated, human-readable diagnostic reports with real-time validation against medical labels. XRayBench ensures that LLMs produce accurate, detailed, and structured diagnostic outputs.
 
-When a new release is created, we will try to push the new code to PyPi. We use [`twine`](https://twine.readthedocs.io/en/stable/) to make our life easier. 
+8. **Scalable and Cloud-Ready**:
+   Designed with scalability in mind, XRayBench supports large-scale testing and training in cloud environments. From single-image evaluations to processing thousands of images, XRayBench ensures seamless performance at any scale.
 
-The **correct steps** to create a new realease are the following:
-- edit `__version__` in [src/__init__](/src/__init__.py) to match the wanted new version.
-- create a new [`tag`](https://git-scm.com/docs/git-tag) with the release name, e.g. `git tag v0.0.1 && git push origin v0.0.1` or from the GitHub UI.
-- create a new release from GitHub UI
+#### **Who Can Benefit?**
 
-The CI will run when you create the new release.
+- **AI Researchers**: Benchmark the performance of novel LLM architectures for medical imaging tasks.
+- **Radiologists**: Leverage XRayBench for validating AI tools that assist in clinical diagnosis, ensuring models perform reliably and accurately in high-stakes environments.
+- **Healthcare Organizations**: Integrate AI into radiology workflows with confidence, using XRayBench to evaluate and select the best-performing models for clinical deployment.
+- **AI Developers**: Fine-tune models and rapidly assess their clinical applicability in X-ray diagnostics.
 
-# Docs
-We use MK docs. This repo comes with the zeta docs. All the docs configurations are already here along with the readthedocs configs.
-
-
-
-# License
-MIT
+#### **The Future of Medical Imaging is Here**
+XRayBench is your go-to platform for pushing the boundaries of AI in medical imaging. Empower your models to meet clinical standards with unmatched accuracy, explainability, and efficiency.
